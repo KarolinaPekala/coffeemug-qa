@@ -12,7 +12,7 @@
    However, it didn't help. The only solution to get rid of captcha turned out to be designing my own website. I found a free solution, which is not perfect because it doesn't allow filtering products. As a compensation, I added validation for each product on the list, whether it has an image and price (eachProductHasImageAndPrice()). 
 
 
-2. To standardize tests and make them independent, before each test (in the second context), I added the creation of a new account sending the API request (which also significantly sped up the tests compared to creating an account in the UI).
+2. To standardize tests and make them independent, before each test (in the second context), I added the creation of a new account by sending the API request (which also significantly sped up the tests compared to creating an account in the UI).
 
 
 3. All the tests can be found in the **e-commerce-website.cy.ts** file. They are divided into two contexts: the 1st contains tests related to **user registration**, the 2nd contains tests related to **actions which user might perform** on the website (searching for products, opening product detailed view, adding it to the basket)
