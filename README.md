@@ -34,10 +34,12 @@
      ```
 
 
-7. If the above commands don't work, run:
+7. If the above commands don't work, fisrt run:
  
     ```
    npm i
     ```
+   and then again 4th or 5th command.
+   
 
 9. Enjoy :)
